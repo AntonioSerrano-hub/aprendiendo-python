@@ -28,3 +28,16 @@ y qué operaciones se pueden realizar con ella.
 
 El archivo `tipos_de_datos.py` contiene ejemplos ejecutables y una aplicación
 sencilla relacionada con un motor eléctrico.
+
+## Valores ausentes con `None`
+
+`None` representa la ausencia de un valor. No es igual a `0`, `False` ni una
+cadena vacía. La forma recomendada de comprobarlo es con `is None` o
+`is not None`.
+
+El archivo `none_en_python.py` utiliza mediciones de sensores para mostrar:
+
+- Una función que puede devolver un número o `None`.
+- Un parámetro opcional cuyo valor inicial es `None`.
+- Una cláusula de guarda que evita operar con una medición ausente.
+- La diferencia entre `None`, cero y una cadena vacía.

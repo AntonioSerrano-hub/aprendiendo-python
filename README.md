@@ -18,6 +18,7 @@ pequeños proyectos relacionados con ingeniería electromecánica.
 - Conversión de datos.
 - Colecciones básicas.
 - Ejemplo aplicado al registro de un motor.
+- Uso de `None` para representar mediciones ausentes.
 
 ## Cómo ejecutar los ejemplos
 
@@ -25,6 +26,7 @@ Es necesario tener Python 3 instalado. Desde la carpeta del repositorio:
 
 ```powershell
 python 01_fundamentos/tipos_de_datos.py
+python 01_fundamentos/none_en_python.py
 ```
 
 ## Estado
