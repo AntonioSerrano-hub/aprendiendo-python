@@ -20,6 +20,10 @@ pequeños proyectos relacionados con ingeniería electromecánica.
 - Ejemplo aplicado al registro de un motor.
 - Uso de `None` para representar mediciones ausentes.
 
+### 02. Enteros grandes
+
+- Precisión arbitraria y consumo de memoria.
+
 ## Cómo ejecutar los ejemplos
 
 Es necesario tener Python 3 instalado. Desde la carpeta del repositorio:
@@ -27,6 +31,7 @@ Es necesario tener Python 3 instalado. Desde la carpeta del repositorio:
 ```powershell
 python 01_fundamentos/tipos_de_datos.py
 python 01_fundamentos/none_en_python.py
+python 02_enteros_grandes/01_precision_arbitraria.py
 ```
 
 ## Estado
