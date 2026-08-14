@@ -26,6 +26,7 @@ pequeños proyectos relacionados con ingeniería electromecánica.
 - Diferencia entre `sys.maxsize` y el tamaño de un `int`.
 - Potencias grandes y uso eficiente de `pow()` con módulo.
 - Cálculos exactos con `math.isqrt()` y `math.factorial()`.
+- Diferencias entre `int`, enteros de ancho fijo y `float("inf")`.
 
 ## Cómo ejecutar los ejemplos
 

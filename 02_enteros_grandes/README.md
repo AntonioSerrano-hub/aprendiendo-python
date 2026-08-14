@@ -47,3 +47,22 @@ para ver un entero enorme sin llenar la terminal con todo su contenido.
 ```powershell
 python 02_enteros_grandes/04_raices_y_factoriales.py
 ```
+
+## Práctica 5: desbordamiento e infinito
+
+`05_desbordamiento_y_infinito.py` compara el resultado de `127 + 1` usando un
+`int` normal y un entero de 8 bits. Uso `ctypes` para reproducir, sin instalar
+NumPy, el comportamiento de ancho fijo que también hay que vigilar en NumPy y
+pandas. Además compruebo que `float("inf")` es un `float`, no el máximo `int`.
+
+```powershell
+python 02_enteros_grandes/05_desbordamiento_y_infinito.py
+```
+
+## Conclusión personal
+
+Python facilita los cálculos exactos con números grandes, pero eso no significa
+que todos los tipos numéricos sean ilimitados. Tengo que revisar el tipo del
+dato, especialmente al usar bibliotecas científicas. También debo elegir la
+operación adecuada: `pow()` con módulo evita trabajo innecesario, `isqrt()`
+mantiene el cálculo entero e infinito solo sirve como valor especial de `float`.
