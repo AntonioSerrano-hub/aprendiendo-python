@@ -23,6 +23,7 @@ pequeños proyectos relacionados con ingeniería electromecánica.
 ### 02. Enteros grandes
 
 - Precisión arbitraria y consumo de memoria.
+- Diferencia entre `sys.maxsize` y el tamaño de un `int`.
 
 ## Cómo ejecutar los ejemplos
 

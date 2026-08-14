@@ -17,3 +17,13 @@ python 02_enteros_grandes/01_precision_arbitraria.py
 Lo que entendí es que Python evita el desbordamiento de sus enteros aumentando
 el espacio reservado. Esto es cómodo, aunque los cálculos enormes consumen más
 memoria y tiempo.
+
+## Práctica 2: qué significa `sys.maxsize`
+
+`02_sys_maxsize.py` calcula valores mayores que `sys.maxsize`. Así comprobé que
+ese dato no es el entero máximo de Python: está relacionado con el mayor índice
+o tamaño que maneja la implementación en esta computadora.
+
+```powershell
+python 02_enteros_grandes/02_sys_maxsize.py
+```
