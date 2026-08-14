@@ -37,3 +37,13 @@ potencia de millones de cifras y aplicar `%` después.
 ```powershell
 python 02_enteros_grandes/03_potencia_modular.py
 ```
+
+## Práctica 4: raíces enteras y factoriales
+
+En `04_raices_y_factoriales.py` uso `math.isqrt()` para comprobar cuadrados
+perfectos sin pasar por un `float`. También calculo `1000!` y cuento sus dígitos
+para ver un entero enorme sin llenar la terminal con todo su contenido.
+
+```powershell
+python 02_enteros_grandes/04_raices_y_factoriales.py
+```
