@@ -24,6 +24,7 @@ pequeños proyectos relacionados con ingeniería electromecánica.
 
 - Precisión arbitraria y consumo de memoria.
 - Diferencia entre `sys.maxsize` y el tamaño de un `int`.
+- Potencias grandes y uso eficiente de `pow()` con módulo.
 
 ## Cómo ejecutar los ejemplos
 

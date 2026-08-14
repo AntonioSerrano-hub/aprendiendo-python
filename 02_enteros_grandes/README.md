@@ -27,3 +27,13 @@ o tamaño que maneja la implementación en esta computadora.
 ```powershell
 python 02_enteros_grandes/02_sys_maxsize.py
 ```
+
+## Práctica 3: potencia modular
+
+`03_potencia_modular.py` usa `pow(base, exponente, modulo)` para obtener un
+código corto de equipo. Esta forma es más eficiente que construir primero una
+potencia de millones de cifras y aplicar `%` después.
+
+```powershell
+python 02_enteros_grandes/03_potencia_modular.py
+```
